@@ -168,3 +168,6 @@ webdevops/varnish:
 
 webdevops/certbot:
 	bash bin/build.sh certbot "${DOCKER_REPOSITORY}/certbot" "${DOCKER_TAG_LATEST}"
+
+webdevops/logstash:
+	bash bin/build.sh logstash "${DOCKER_REPOSITORY}/logstash" "${DOCKER_TAG_LATEST}"
